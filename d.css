@@ -1,0 +1,50 @@
+*{
+    padding: opx;
+    margin: 0px;
+    box-sizing: border-box;}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+h1:hover{
+    font-family: 45px;
+
+}
+}
+@keyframes po{
+    from{
+        background-color: aqua;
+        padding:15px;
+    }
+    to{
+        background-color: rgb(162, 147, 167);
+        padding:30px;
+    }
+}
+
+
+
+
+
+.baton{
+    background-color: aquamarine;
+    text-decoration: none;
+    color:rgb(45, 25, 144);
+    font-size: 15spx;
+    padding: 20px;
+    margin-left: 200px;
+    animation-name: po;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+.baton:hover{
+    background-color: blue;
+    border:1px solid blanchedalmond;
+    border-radius: 35px;
+    background-color: black;
+
+}
+
+  

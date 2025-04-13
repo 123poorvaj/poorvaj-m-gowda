@@ -1,0 +1,41 @@
+*{
+    padding: 0PX;
+    margin: 0PX;
+    box-sizing: border-box;
+
+}
+@keyframes ani {
+    from{
+        background-color: bisque;
+        border-radius: 25px;
+        
+         
+    }
+    to{
+        background-color: aquamarine;
+border-radius:10px;
+    }
+}
+
+h1{
+    padding:23px;
+    margin-top:10px;
+    margin-left: 550px;
+    margin-right: 550px;
+    text-align: center;
+    animation-duration: .1s;
+    background-color: aquamarine;
+    animation-name: ani;
+    animation-iteration-count: infinite;
+}
+h1:hover{
+    text-decoration-color: aqua;
+    
+}
+.int{
+    padding: 20px;
+    gap:100px;
+    display: flex;
+    justify-content:left;
+
+}

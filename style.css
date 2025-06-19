@@ -1,43 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    padding: 00;
+    margin: 00;
     box-sizing: border-box;
-}
-.main-heading{
-  font-style: italic;  color:rgb(10, 81, 37); font-size: 45px;
-  font-weight: 600;
-  background-color: aqua;
-  text-align:center;
-  padding:13px;;
-  margin:90px;
-  text-transform: capitalize;
-  padding-top:30px;
-  padding-bottom:30px;
-  padding-right: 30px;
-  
-  margin-top: 100px;
-  margin-bottom:30px;
-  margin-left:400px;
-  margin-right:700px;;
-}
-.the{
-  list-style: disc;
-  padding:10px;
-  padding-left: 10px;
-  padding-top:10px ;
-  background-color: aquamarine;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  text-align: center;
-  max-width: 300px;
-  margin-top:100px;
-  margin-bottom:30px;
-  margin-right: 300px;
-  margin-left: 400px;
-} 
-.second-heding{
-  background-color: aquamarine;
-
+    background: rgb(197, 170, 175);
+    background-image: -webkit-image-set;
 }
 
+.hed {
+    text-align: center;
+    padding: 23px;
+    color: white;
+    background-color: black;
+    margin-top: 45px;
+    margin-left: 656px;
+    margin-bottom: 45px;
+    margin-right: 657px;
+}
 
+.user {
+    text-align: center;
+}

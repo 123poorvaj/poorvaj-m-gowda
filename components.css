@@ -1,0 +1,215 @@
+/* Navigation Links */
+.nav-link {
+  @apply text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary-light transition-colors duration-300 font-medium;
+}
+
+.mobile-nav-link {
+  @apply block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-300;
+}
+
+/* Buttons */
+.btn-primary {
+  @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-primary hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-all duration-300;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center px-6 py-3 border border-gray-300 dark:border-gray-700 text-base font-medium rounded-md shadow-sm text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-all duration-300;
+}
+
+/* Social Links */
+.social-link {
+  @apply flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-primary hover:text-white dark:hover:bg-primary-light dark:hover:text-white transition-colors duration-300;
+}
+
+/* Section Title */
+.section-title {
+  @apply text-3xl md:text-4xl font-bold text-center text-gray-900 dark:text-white mb-8 after:content-[''] after:block after:w-16 after:h-1 after:bg-primary dark:after:bg-primary-light after:mx-auto after:mt-4;
+}
+
+.section-content {
+  @apply text-gray-700 dark:text-gray-300 leading-relaxed text-lg;
+}
+
+/* Skills */
+.skill-bar {
+  @apply w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden;
+}
+
+.skill-progress {
+  @apply h-full bg-primary dark:bg-primary-light rounded-full transition-all duration-1000;
+}
+
+.soft-skill-item {
+  @apply flex flex-col items-center p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center;
+}
+
+.soft-skill-item i {
+  @apply text-2xl text-primary dark:text-primary-light mb-2;
+}
+
+/* Timeline */
+.timeline {
+  @apply relative ml-4 md:ml-0;
+}
+
+.timeline::before {
+  content: '';
+  @apply absolute left-0 md:left-1/2 w-0.5 h-full -ml-0.5 md:-ml-0.5 bg-gray-200 dark:bg-gray-700;
+}
+
+.timeline-item {
+  @apply relative pb-8;
+}
+
+.timeline-item:last-child {
+  @apply pb-0;
+}
+
+.timeline-dot {
+  @apply absolute left-0 md:left-1/2 w-4 h-4 -ml-2 md:-ml-2 rounded-full bg-primary dark:bg-primary-light z-10;
+}
+
+.timeline-content {
+  @apply ml-8 md:ml-0 md:w-1/2 md:pl-8 md:odd:ml-auto md:odd:pl-0 md:odd:pr-8;
+}
+
+.timeline-date {
+  @apply text-sm font-medium text-gray-500 dark:text-gray-400 mb-1;
+}
+
+.timeline-title {
+  @apply text-xl font-semibold text-gray-900 dark:text-white mb-1;
+}
+
+.timeline-institution {
+  @apply text-base font-medium text-primary dark:text-primary-light mb-2;
+}
+
+.timeline-description {
+  @apply text-gray-700 dark:text-gray-300;
+}
+
+/* Project Card */
+.project-card {
+  @apply bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300;
+}
+
+.project-image {
+  @apply relative pb-[60%] overflow-hidden;
+}
+
+.project-image img {
+  @apply absolute inset-0 w-full h-full object-cover;
+}
+
+.project-body {
+  @apply p-6;
+}
+
+.project-title {
+  @apply text-xl font-semibold text-gray-900 dark:text-white mb-2;
+}
+
+.project-description {
+  @apply text-gray-700 dark:text-gray-300 mb-4;
+}
+
+.project-tech {
+  @apply flex flex-wrap gap-2 mb-4;
+}
+
+.project-tech span {
+  @apply px-3 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full;
+}
+
+.project-links {
+  @apply flex justify-between;
+}
+
+.project-link {
+  @apply text-sm font-medium text-primary dark:text-primary-light hover:underline;
+}
+
+/* Contact */
+.contact-info-item, .contact-method {
+  @apply flex items-center space-x-3 text-gray-700 dark:text-gray-300;
+}
+
+.contact-info-item i, .contact-method i {
+  @apply text-primary dark:text-primary-light;
+}
+
+/* Forms */
+.form-label {
+  @apply block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1;
+}
+
+.form-input, .form-textarea {
+  @apply block w-full px-4 py-3 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary dark:focus:ring-primary-light focus:border-primary dark:focus:border-primary-light;
+}
+
+/* Hero background */
+.hero-bg {
+  @apply absolute inset-0 bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-800;
+}
+
+/* Color utilities */
+.text-primary {
+  color: rgb(var(--color-primary));
+}
+
+.text-primary-light {
+  color: rgb(var(--color-primary-light));
+}
+
+.bg-primary {
+  background-color: rgb(var(--color-primary));
+}
+
+.bg-primary-light {
+  background-color: rgb(var(--color-primary-light));
+}
+
+.bg-primary-dark {
+  background-color: rgb(var(--color-primary) / 0.8);
+}
+
+.focus\:ring-primary:focus {
+  --tw-ring-color: rgb(var(--color-primary) / 0.5);
+}
+
+.focus\:border-primary:focus {
+  border-color: rgb(var(--color-primary));
+}
+
+.hover\:bg-primary:hover {
+  background-color: rgb(var(--color-primary));
+}
+
+.hover\:text-primary:hover {
+  color: rgb(var(--color-primary));
+}
+
+.dark .dark\:text-primary-light {
+  color: rgb(var(--color-primary-light));
+}
+
+.dark .dark\:bg-primary-light {
+  background-color: rgb(var(--color-primary-light));
+}
+
+.dark .dark\:hover\:bg-primary-light:hover {
+  background-color: rgb(var(--color-primary-light));
+}
+
+.dark .dark\:hover\:text-primary-light:hover {
+  color: rgb(var(--color-primary-light));
+}
+
+.dark .dark\:focus\:ring-primary-light:focus {
+  --tw-ring-color: rgb(var(--color-primary-light) / 0.5);
+}
+
+.dark .dark\:focus\:border-primary-light:focus {
+  border-color: rgb(var(--color-primary-light));
+}

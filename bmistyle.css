@@ -1,7 +1,22 @@
 .bg-cointainer {
-    background-color: rgb(78, 151, 101);
+    background-color: rgb(170, 218, 179);
     height: 100vh;
     width: 100vw;
+    color: rgb(242, 154, 225);
+}
+
+.main-box {
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: beige;
+    background-image: linear-gradient(to left, rgb(156, 153, 153), rgb(31, 30, 30));
+    width: 45%;
+    height: 45%;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 .main-box {
@@ -14,4 +29,6 @@
     background-color: beige;
     width: 45%;
     height: 45%;
+    border-radius: 45px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }

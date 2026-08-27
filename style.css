@@ -1,22 +1,103 @@
 * {
-    padding: 00;
-    margin: 00;
-    box-sizing: border-box;
-    background: rgb(197, 170, 175);
-    background-image: -webkit-image-set;
+    padding: 0px;
+    margin: 0px;
 }
 
-.hed {
-    text-align: center;
-    padding: 23px;
+#logo {
+    color: rgb(28, 141, 176);
+    font-family: "ROBOTO";
+    font-size: 35PX;
+
+}
+
+.bg-container {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.TALK-button {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(28, 141, 176);
     color: white;
-    background-color: black;
-    margin-top: 45px;
-    margin-left: 656px;
-    margin-bottom: 45px;
-    margin-right: 657px;
+    font-family: "ROBOTO";
+    font-weight: bold;
+    border: none;
+
 }
 
-.user {
-    text-align: center;
+#navbarText {
+    margin-right: 20px;
+    margin-left: 30%;
+}
+
+#navbarText ul li a {
+    font-weight: 700;
+    font-family: 'roboto';
+    color: rgb(28, 141, 176);
+    font-size: medium;
+    margin: 5px;
+}
+
+
+#navbarText ul li a:hover {
+    color: black;
+    font-size: large;
+}
+
+.hero-section-bg {
+    background-image: linear-gradient(rgb(99, 148, 163), #ffff);
+
+    opacity: 0.9;
+    height: 100vh;
+    width: 100vw;
+    animation: BACKGEOUND 3s infinite;
+}
+
+@keyframes BACKGEOUND {
+    from {
+        background-image: linear-gradient(rgb(99, 148, 163), #ffff);
+    }
+
+    to {
+        background-image: linear-gradient(rgb(72, 144, 165), #ffff);
+
+    }
+}
+
+.Learn-more-botton {
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(28, 141, 176);
+    font-family: "ROBOTO";
+    border: 1px solid black;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.heading {
+    font-family: "ROBOTO";
+    font-size: 45PX;
+    font-weight: bold
+}
+
+.hero-section-bg {
+
+    min-height: 100vh;
+    font-family: "ROBOTO";
+}
+
+.hero-section-bg h4 {
+    font-weight: 600;
+    font-size: 35px;
+    color: rgb(28, 141, 176);
+    padding: 5px;
+
+
+}
+
+.hero-section-bg p {
+    color: rgb(113, 115, 111);
+    font-weight: 600;
+    font-size: 15px;
 }
